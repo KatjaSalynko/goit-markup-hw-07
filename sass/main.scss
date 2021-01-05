@@ -1,4 +1,5 @@
 @import'./utils/visually-hidden';
+@import'./utils/variables';
 
 @import'./base/common';
 @import'./base/container';
@@ -9,3 +10,9 @@
 @import'./layout/job-description';
 @import'./layout/responsibilities';
 @import'./layout/team';
+@import'./layout/contact-information';
+@import'./layout/backdrop';
+
+@import'./layout/portfolio';
+@import'./layout/projects';
+@import'./layout/clients';
