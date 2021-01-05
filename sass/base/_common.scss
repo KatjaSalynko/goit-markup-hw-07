@@ -1,0 +1,45 @@
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    display: block;
+}
+
+body {
+    font-family: var(--main-font);
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.167;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding-bottom: 50px;
+    color: #212121;
+}
+
+.address-menu {
+    font-style: normal;
+}
+
+.address-menu-header{
+    font-style: normal;
+}
+
+.address-menu-footer {
+    background-color: #2F303A;
+}

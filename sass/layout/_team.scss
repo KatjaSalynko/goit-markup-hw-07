@@ -1,0 +1,100 @@
+.team{
+    background-color: rgba(245,244,250,1);
+    padding-top: 47px;
+    padding-bottom: 47px;
+}
+/*
+.team-title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.167;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    padding-top: 94px;
+    padding-bottom: 50px;
+    color: #212121;
+}
+ */
+
+.team-title-list{
+    display:flex;
+    padding-bottom: 94px;
+}
+
+.team-title-item:not(:last-child){
+    margin-right: 30px;
+}
+
+.team-title-item{
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+.team-undertitle{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.187;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    padding-top: 30px;
+    padding-bottom: 10px;
+
+    color: #212121;
+}
+
+.team-undertitle-description{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.188;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding-bottom: 30px;
+    color: #757575;
+}
+
+.social-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px 20px 40px;
+}
+
+.social-list .social-list_icon {
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
+
+    transition-property: #AFB1B8;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-list_link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    background: white;
+    border-radius: 50%;
+
+    transition-property: var(--accent-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+}
+    
+.social-list_link:hover .social-list_icon,
+.social-list_link:focus .social-list_icon{
+    fill: white;
+}
+
+.social-list_link:hover,
+.social-list_link:focus{
+    background-color:#2196F3;
+}
