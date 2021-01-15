@@ -7,8 +7,7 @@
     justify-content: space-between;
     padding-bottom: 90px;
 
-}
-.clients-list a {
+    & a{
     display: block;
     width: 170px;
     height: 90px;
@@ -19,14 +18,16 @@
 
     transition-property: var(--accent-color);
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-}
-.clients-list a:hover,
-.clients-list a:focus {
+    &:hover,
+    &:focus{
     border: 1px solid #2196F3;
     color: #2196F3;
+     }
+   }
 }
+
 .clients-list a svg {
     width: 100px;
     height: 50px;
