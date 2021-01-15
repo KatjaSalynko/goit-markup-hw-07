@@ -41,10 +41,10 @@
     transition-property: var(--accent-color);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.hero-title-btn:hover,
-.hero-title-btn:focus{
+&:hover,
+&:focus{
     background-color: #2196F3;
-    color: #FFFFFF;
+    color: #FFFFFF; 
+    }
 }

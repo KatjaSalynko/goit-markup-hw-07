@@ -28,15 +28,19 @@
 
     transition-property: var(--accent-color);
     transition-duration: 500ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);   
-}
-.section-list-btn:hover,
-.section-list-btn:focus,
-.section-list-btn.selected {
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
+&:hover,
+&:focus,
+&.selected{
     background-color:#2196F3;
     color: white;
+    }
 }
-.section-list-item:not(:last-child) {
+
+.section-list-item{
+    &:not(:last-child){
     margin-right: 8px;
     padding-bottom: 56px;
+    }
 }

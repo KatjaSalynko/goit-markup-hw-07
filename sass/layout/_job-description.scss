@@ -6,9 +6,11 @@
     display: flex;
     margin-top: 94px;
 }
-.description-list-item:not(:last-child){
+.description-list-item{
+    &:not(:last-child){
     margin-right: 30px;
     margin-bottom: 10px;
+    }
 }
 
 .undertitle-icon-container {

@@ -9,9 +9,9 @@
 
 .responsibilities-title-item{
     position: relative;
-}
-.responsibilities-title-item:not(:last-child){
+&:not(:last-child){
     margin-right: 30px;
+    }
 }
 
 .responsibilities-image-overlay{

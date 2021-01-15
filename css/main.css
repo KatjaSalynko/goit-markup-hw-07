@@ -265,8 +265,7 @@ li.address-list-item.first > a {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero-title-btn:hover,
-.hero-title-btn:focus {
+.hero-title-btn:hover, .hero-title-btn:focus {
   background-color: #2196F3;
   color: #FFFFFF;
 }
@@ -381,15 +380,15 @@ li.address-list-item.first > a {
   padding-bottom: 94px;
 }
 
-.team-title-item:not(:last-child) {
-  margin-right: 30px;
-}
-
 .team-title-item {
   box-sizing: border-box;
   background-color: white;
   border-radius: 3px;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+.team-title-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .team-undertitle {
@@ -444,14 +443,12 @@ li.address-list-item.first > a {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-list_link:hover .social-list_icon,
-.social-list_link:focus .social-list_icon {
-  fill: white;
+.social-list_link:hover, .social-list_link:focus {
+  background-color: #2196F3;
 }
 
-.social-list_link:hover,
-.social-list_link:focus {
-  background-color: #2196F3;
+.social-list_link:hover .social-list_icon, .social-list_link:focus .social-list_icon {
+  fill: white;
 }
 
 .footer {
@@ -855,9 +852,7 @@ li.address-list-item.first > a {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.section-list-btn:hover,
-.section-list-btn:focus,
-.section-list-btn.selected {
+.section-list-btn:hover, .section-list-btn:focus, .section-list-btn.selected {
   background-color: #2196F3;
   color: white;
 }
@@ -905,9 +900,14 @@ li.address-list-item.first > a {
   display: block;
 }
 
-.projects-list-link:focus,
-.projects-list-link:hover {
+.projects-list-link:focus, .projects-list-link:hover {
   box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.projects-list-link:focus .overlay,
+.projects-list-link:focus .overlay, .projects-list-link:hover .overlay,
+.projects-list-link:hover .overlay {
+  transform: translateY(0);
 }
 
 .projects-list-img {
@@ -946,11 +946,6 @@ li.address-list-item.first > a {
   padding-right: 29px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: translateY(100%);
-}
-
-.projects-list-link:hover .overlay,
-.projects-list-link:focus .overlay {
-  transform: translateY(0);
 }
 
 .projects-list-img-wrapper {
@@ -1001,44 +996,5 @@ li.address-list-item.first > a {
 .clients-list a:hover svg,
 .clients-list a:focus svg {
   fill: #2196F3;
-}
-
-.join-list {
-  display: flex;
-  padding-top: 20px;
-  padding-left: 70px;
-  width: 176px;
-  justify-content: space-between;
-}
-
-.join-list a {
-  display: block;
-  width: 44px;
-  height: 44px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
-  text-align: center;
-  transition-property: var(--accent-color);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.join-list-item:not(:last-child) {
-  padding-right: 10px;
-}
-
-.join-list a:hover,
-.join-list a:focus {
-  background-color: #2196F3;
-}
-
-.join-list svg {
-  width: 20px;
-  height: 20px;
-  fill: white;
-  margin: 12px;
-  transition-property: white;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*# sourceMappingURL=main.css.map */
