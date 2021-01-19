@@ -79,6 +79,7 @@
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-left: 31px;
 
     color: #FFFFFF;
 }
@@ -105,6 +106,7 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     margin-top: 20px;
     padding-left: 16px;
+    margin-left: 30px;
 }
 .subsc-btn{
     position: relative;
@@ -146,4 +148,70 @@
 
 .footer-btn{
     padding-top: 48px;
+}
+.join-list {
+    display: flex;
+    padding-top: 50px;
+    width: 190px;
+    justify-content: space-between;
+
+    & a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: gray;
+    border-radius: 50%;
+    text-align: center;
+
+    &:hover{
+       background-color: #2196F3;
+       } 
+     }
+   }
+
+.join-list svg {
+    width: 20px;
+    height: 20px;
+    fill: white;
+    margin-top: 10px;
+}
+.join-list {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 70px;
+    width: 176px;
+    justify-content: space-between;
+
+    & a {
+        display: block;
+        width: 44px;
+        height: 44px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+        text-align: center;
+    
+        transition-property: var(--accent-color);
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        
+        &:hover,
+        &:focus {
+          background-color: #2196F3;
+        }
+    }
+}
+
+.join-list-item:not(:last-child){
+    padding-right: 10px;
+}
+
+.join-list svg {
+    width: 20px;
+    height: 20px;
+    fill: white;
+    margin: 12px;
+
+    transition-property: white;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
