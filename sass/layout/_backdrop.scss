@@ -155,29 +155,16 @@
     color: #757575;
     margin-bottom: 30px;
     
-&::before{
-    display: inline-block;
-    width: 16px;
-    height: 15px;
-    content: "";
-    border: 2px solid #212121; 
-    margin-right: 7px;
-    border-radius: 3px;
+    &::before{
+        display: inline-block;
+        width: 16px;
+        height: 15px;
+        content: "";
+        border: 2px solid #212121; 
+        margin-right: 7px;
+        border-radius: 3px;
 
-.modal-form-policy:checked + &{
-    background-image: url(../Images/check.svg);
-    background-position: 0px 1px; 
-    border: none;
-    align-items: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding-left: 3px;
-    padding-right: 2px;
-    padding-top: 4px;
-    padding-bottom: 3px;
-    width: 16px;
-    height: 15px;   
-        }
+        
     }
 }
 
@@ -193,6 +180,20 @@
     text-decoration-line: underline;
     color: #2196F3;
     
+}
+.modal-form-policy:checked + .modal-form-policy-text::before{
+    background-image: url(../Images/check.svg);
+    background-position: 0px 1px; 
+    border: none;
+    align-items: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 3px;
+    padding-right: 2px;
+    padding-top: 4px;
+    padding-bottom: 3px;
+    width: 16px;
+    height: 15px;   
 }
 
 .modal-form-btn{
